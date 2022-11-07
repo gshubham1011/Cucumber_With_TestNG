@@ -1,0 +1,70 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Second TestCase Scenario",
+        "description": "",
+        "id": "second-testcase-scenario;second-testcase-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 166691300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user login",
+            "match": {
+              "location": "SecondScenarioStepDefinition.user_login()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 70100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "title of the page",
+            "match": {
+              "location": "SecondScenarioStepDefinition.title_of_the_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 56800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "enter credentials",
+            "match": {
+              "location": "SecondScenarioStepDefinition.enter_credentials()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 55900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "verifyAll Details",
+            "match": {
+              "location": "SecondScenarioStepDefinition.verifyAll_Details()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Second TestCase Scenario",
+    "description": "",
+    "id": "second-testcase-scenario",
+    "keyword": "Feature",
+    "uri": "src/main/java/Features/SecondScenario.feature"
+  }
+]
